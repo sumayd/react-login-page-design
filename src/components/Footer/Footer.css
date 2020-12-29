@@ -1,0 +1,75 @@
+.footer {
+    background: #222;
+    margin-top: 1rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    padding: 45px 50px;
+}
+ul.footer-links {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    margin: 0 0 10px;
+    padding: 0;
+    transition: ease .25s;
+    list-style: none;
+    display: inline-flex;
+}
+ul.footer-links li {
+    padding: 0 10px;
+}
+ul.footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+    transition: ease .25s;
+    color: #fff;
+}
+.footer-left{
+    float: left;
+    width: 100%;
+}
+.footer-right {
+    float: right;
+    min-width: 205px;
+    right: 0;
+    position: fixed;
+}
+.footer-right a:hover{
+    transform:scale(1.1);
+    -webkit-transform:scale(1.1);
+}
+.footer-right a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 3px;
+  transition:all .25s;
+}
+.footer-left p {
+    color: #33383b;
+    padding: 0 10px;
+}
+@media screen and (max-width: 768px) {
+    ul.footer-links {
+        display: block;
+    }
+    .footer-right {
+        float: unset;
+        position: unset;
+    }
+    .footer .fluid-react-row {
+        display: block;
+    }
+}

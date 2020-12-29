@@ -1,0 +1,67 @@
+.loginWrapper {
+    min-height: 67vh;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 30px;
+    background-color: #ebebeb;
+}
+.Login {
+    width: 560px;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+}
+button.btn {
+    background-color: #222222;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.formTitle{
+    font-size: 30px;
+    color: #555;
+    line-height: 1.2;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+.form-group input {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 2px;
+    height: 45px;
+    margin: 10px 0;
+}
+label.form-label {
+    font-size: 13px;
+    color: #555;
+    line-height: 1.4;
+    text-transform: uppercase;
+}
+@media all and (min-width: 480px) {
+    .Login {
+      padding: 50px 0;
+    }
+    .Login form {
+      margin: 0 auto;
+      max-width: 320px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+  .Login {
+    padding: 40px 40px;
+    }   
+    .loginWrapper {
+        min-height: 55vh;
+    }
+}
